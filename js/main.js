@@ -56,7 +56,7 @@ const projectsData = [
     tech: "Python | AutoGen | LLMs | OpenAI API | Computer Vision",
     description:
       "Engineered a 5-agent autonomous system using OpenAI AutoGen to automate flight log analysis, reducing manual processing time by 90%. Integrated computer vision and NLP for automated risk assessment and report generation.",
-    github: "https://github.com/Coolsajan/flight-log-analyst",
+    github: "https://github.com/Coolsajan/flight-log-analyzer",
     demo: "https://flightloganalyst.streamlit.app/", // Add demo link if available
     image: "images/projects/project1.jpg", // Add your project screenshot
   },
@@ -65,7 +65,7 @@ const projectsData = [
     tech: "NLP | LangChain | RAG | Hugging Face | Prompt Engineering",
     description:
       "Developed a RAG-based AI chatbot processing 10,000+ restaurant reviews using vector embeddings and semantic search. Deployed production application on Hugging Face Spaces with 95% user query satisfaction rate.",
-    github: "https://github.com/Coolsajan/great-food-buddie",
+    github: "https://github.com/Coolsajan/my-great-food-buddie",
     demo: "https://huggingface.co/spaces/Coolsajan/great-food-buddie", // Update with actual demo link
     image: "images/projects/project2.jpg",
   },
@@ -74,7 +74,7 @@ const projectsData = [
     tech: "LSTM | Docker | Streamlit | Time Series | Deep Learning",
     description:
       "Built LSTM deep learning model forecasting stock prices with 85%+ directional accuracy over 10-day horizon. Engineered time series features (moving averages, RSI, volatility) and containerized with Docker for deployment.",
-    github: "https://github.com/Coolsajan/stock-prediction",
+    github: "https://github.com/Coolsajan/stocks-price-predicition",
     demo: "https://forecaststocks.streamlit.app/",
     image: "images/projects/project3.jpg",
   },
