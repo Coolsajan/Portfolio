@@ -66,7 +66,7 @@ const projectsData = [
     description:
       "Developed a RAG-based AI chatbot processing 10,000+ restaurant reviews using vector embeddings and semantic search. Deployed production application on Hugging Face Spaces with 95% user query satisfaction rate.",
     github: "https://github.com/Coolsajan/my-great-food-buddie",
-    demo: "https://huggingface.co/spaces/Coolsajan/great-food-buddie", // Update with actual demo link
+    demo: "https://huggingface.co/spaces/coolsajan/mygreatfoodbuddie", // Update with actual demo link
     image: "images/projects/project2.jpg",
   },
   {
