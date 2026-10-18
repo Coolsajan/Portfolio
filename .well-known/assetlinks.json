@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "np.com.thapasajan.card",
+    "sha256_cert_fingerprints": [
+      "B2:CB:CA:B1:33:2E:EF:7C:16:CA:F0:B8:A1:1F:FF:69:7E:1B:84:0B:DB:4A:89:F1:54:F5:3D:61:AB:1B:FC:8C"
+    ]
+  }
+}]
