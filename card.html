@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajan Thapa | Digital Business Card</title>
+
+    <!-- Smart App Banner for iOS App Clip Preview -->
+    <meta name="apple-itunes-app" content="app-clip-bundle-id=com.yourcompany.app.Clip, app-id=YOUR_APP_ID">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card-container {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 380px;
+            padding: 32px 24px;
+            text-align: center;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3b82f6;
+            margin-bottom: 16px;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background-color: #3b82f6;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #2563eb;
+        }
+
+        .btn-secondary {
+            background-color: #334155;
+            color: #f8fafc;
+        }
+
+        .btn-secondary:hover {
+            background-color: #475569;
+        }
+
+        .footer {
+            margin-top: 24px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- Optional: Replace with your actual photo URL -->
+        <img src="https://via.placeholder.com/100" alt="Sajan Thapa" class="avatar">
+
+        <h1 class="name">Sajan Thapa</h1>
+        <p class="title">Data Science & AI Solutions</p>
+
+        <div class="actions">
+            <!-- Save Contact or Custom Call to Action -->
+            <a href="tel:+9779800000000" class="btn btn-primary">Call Directly</a>
+            <a href="mailto:contact@thapasajan.com.np" class="btn btn-secondary">Send Email</a>
+            <a href="https://thapasajan.com.np" class="btn btn-secondary">Visit Website</a>
+        </div>
+
+        <div class="footer">
+            Tapped via NFC • thapasajan.com.np
+        </div>
+    </div>
+
+</body>
+</html>
